@@ -1,5 +1,7 @@
 # Plug-and-Play-ADMM-for-Image-Restoration-Fixed-Point-Convergence-and-Applications
-Implementation of Plug-and-Play ADMM for image restoration, focusing on fixed-point convergence analysis and applications in image denoising and deblurring. The framework integrates advanced denoisers within the ADMM optimization process to achieve high-quality image reconstruction.
+This project implements a flexible Plug-and-Play Alternating Direction Method of Multipliers (PnP-ADMM) framework in Python for solving inverse imaging problems such as image denoising and deblurring. The framework integrates advanced image denoisers into the optimization process without explicitly defining a prior model.
+
+The Plug-and-Play approach replaces traditional regularization terms with powerful off-the-shelf denoisers, enabling high-quality image reconstruction while avoiding the need for manually designed image priors. This modular formulation allows different denoisers to be incorporated seamlessly, making the framework adaptable to various image restoration tasks.
 
 ---
 
